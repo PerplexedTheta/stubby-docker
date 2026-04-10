@@ -1,6 +1,6 @@
 FROM stubby AS initial
 
-FROM debian:trixie-slim
+FROM ubuntu:focal
 
 COPY files/stubby.example.yml /
 COPY files/entrypoint.sh /

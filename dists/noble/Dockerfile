@@ -1,6 +1,6 @@
 FROM stubby AS initial
 
-FROM ubuntu:focal
+FROM ubuntu:noble
 
 COPY files/stubby.example.yml /
 COPY files/entrypoint.sh /
